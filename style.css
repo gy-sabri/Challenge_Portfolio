@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+
+body {
+	background-color: #aaaa;
+}
+
+section {
+	margin-top: 50px
+}
+
+.container {
+	width: 90%
+}
+
+.claer {
+	clear: both
+}
+nav {
+	height: 40px;
+	background-color: #000;
+	position: fixed;
+	width: 100%
+}
+
+nav ul {
+	list-style-type: none
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #eee;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif
+}
+
+header {
+	height: 600px;
+	background-image: url('img/header.jpg');
+	background-size: cover;
+	background-attachment: fixed
+}
+
+header div {
+	width: 50%;
+	text-align: center
+}
+
+header h1 {
+	padding-top: 200px;
+	font-family: 'Quicksand', sans-serif;
+	color: #ccc
+}
+
+header h1 span {
+	color: #C8C4EE
+}
+
+header button {
+	margin: 20px 0;
+	padding: 15px;
+	border: solid 2px #ccc;
+	background-color: transparent;
+	color: #ccc;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+}header button:hover {
+	background-color: #C8C4EE;
+	border: solid 2px transparent;
+	color: #eee;
+}
+
+.about h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	border-bottom: solid 3px black;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about article {
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.about article .p {
+	padding: 20px;
+	margin-top: 10px;
+	border: solid 3px black;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px
+}
+
+.about article h4 {
+	margin: 20px 0;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #eee;
+	font-size: 18px
+}
+
+
+.about article p {
+	width: 70%;
+	color: #978C8C;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+.skills article {
+	width: 50%;
+	float: left
+}
+
+.skills .box_skills_1{
+	width: 70%;
+	text-align: center
+}
+
+.skills .box_skills_1 img {
+	margin: 10px;
+	border-radius: 30px;
+}
+
+.skills .box_skills_1 h4 {
+	margin: 20px 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px
+}
+
+.skills .box_skills_1 p {
+	margin: 20px 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px
+}
+
+.skills .box_skills_2  {
+	width: 80%;
+	text-align: left;
+} 
+
+.skills .box_skills_2 p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.skills .box_skills_2 .skills {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  float: left;
+  padding-left: 20px;
+  line-height: 40px;
+  color: white;
+  margin: 10px 0
+}
+
+.skills .box_skills_2 .html {width: 90%; background-color: #000;}
+.skills .box_skills_2 .css {width: 80%; background-color: #000;}
+.skills .box_skills_2 .Bootstrap {width: 65%; background-color: #000;}
+.skills .box_skills_2 .js {width: 60%; background-color: #000;}
+.skills .box_skills_2 .JQuery {width: 65%; background-color: #000;}
+.skills .box_skills_2 .PHP {width: 20%; background-color: #000;}
+.skills .box_skills_2 .AJAX {width: 30%; background-color: #000;}
+
