@@ -13,7 +13,8 @@ section {
 }
 
 .container {
-	width: 90%
+	width: 90%;
+	position: relative;
 }
 
 .claer {
@@ -23,7 +24,8 @@ nav {
 	height: 40px;
 	background-color: #000;
 	position: fixed;
-	width: 100%
+	width: 100%;
+	z-index: 1
 }
 
 nav ul {
@@ -80,6 +82,10 @@ header button {
 	color: #eee;
 }
 
+header button span {
+	font-family: 'Anton', sans-serif;
+}
+
 .about h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -95,6 +101,11 @@ header button {
 	text-align: center;
 	padding: 10px;
 
+}
+
+.about article i {
+	font-size: 100px;
+	padding: 20px;
 }
 
 .about article .p {
@@ -127,9 +138,23 @@ header button {
 	float: left
 }
 
+
+.skills article .box_skills_1 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    border-radius: 0px 0px 27px 27px;
+    padding: 20px;
+}
+
 .skills .box_skills_1{
 	width: 70%;
-	text-align: center
+	text-align: center;
+	position: relative
 }
 
 .skills .box_skills_1 img {
