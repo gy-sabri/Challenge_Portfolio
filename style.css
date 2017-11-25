@@ -21,8 +21,8 @@ section {
 	clear: both
 }
 nav {
-	height: 40px;
-	background-color: #000;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.5); 
 	position: fixed;
 	width: 100%;
 	z-index: 1
@@ -34,7 +34,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	padding: 10px;
+	padding: 15px;
 	margin: 0 20px;
 }
 
@@ -86,17 +86,23 @@ header button span {
 	font-family: 'Anton', sans-serif;
 }
 
+.about {
+    height: 600px
+}
+
 .about h2 {
 	text-transform: uppercase;
 	text-align: center;
+    width: 50%;
 	font-size: 40px;
-	border-bottom: solid 3px black;
+	border-bottom: solid 2px #3333;
 	padding-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 }
 
 .about article {
 	width: 25%;
+    margin-top: 100px;
 	float: left;
 	text-align: center;
 	padding: 10px;
@@ -132,6 +138,16 @@ header button span {
 	font-family: 'Quicksand', sans-serif;
 }
 
+.skills h2 {
+	text-transform: uppercase;
+    width: 50%;
+	text-align: center;
+	font-size: 40px;
+	border-bottom: solid 2px #3333;
+	padding-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px
+}
 
 .skills article {
 	width: 50%;
@@ -210,6 +226,7 @@ header button span {
 }
 
 .contact h2 {
+    width: 50%;
 	text-transform: uppercase;
 	color: #eee;
 	text-align: center;
@@ -269,14 +286,13 @@ footer {
 	padding: 10px
 }
 
+
 footer a {
 	color: #eee;
 	margin: 0 20px;
 	text-decoration: none;
 	font-size: 30px
 }
-
-
 
 footer p {
 	color: #eee;
@@ -285,3 +301,58 @@ footer p {
 	text-transform: uppercase;
 	font-family: 'Quicksand', sans-serif;
 }
+
+
+/* ======================= Sabri ===================== */
+
+.header_sabri {
+	height: 600px;
+	background-image: url('img/Slider-4.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: top
+}
+
+.about .article i {
+	font-size: 100px;
+	padding: 20px;
+    color: #333
+}
+
+#contact {
+    background-image: url('img/Slider-4.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+    background-position: bottom
+}
+
+.footer {
+	background-color: #ccc;
+	text-align: center;
+	padding: 10px
+}
+
+
+.footer a {
+	color: #333;
+	margin: 0 20px;
+	text-decoration: none;
+	font-size: 30px
+}
+
+.footer p {
+	color: #333;
+	padding: 5px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.skills .box_skills_2 .htmls {width: 90%; background-color: #007a01;}
+.skills .box_skills_2 .csss {width: 80%; background-color: #00b702;}
+.skills .box_skills_2 .Bootstraps {width: 65%; background-color: #4cdb4e}
+.skills .box_skills_2 .jss {width: 60%; background-color: #32d635}
+.skills .box_skills_2 .JQuerys {width: 65%; background-color: #4cdb4e}
+.skills .box_skills_2 .PHPs {width: 20%; background-color: #99ea9a;}
+.skills .box_skills_2 .AJAXs {width: 30%; background-color: #66e067}
